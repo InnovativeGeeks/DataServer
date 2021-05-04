@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./js/test.js"></script>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form class="login" id="loginForm" action="./php/panels.php" method="POST">
+            <label for="username">Username</label><br/>
+            <input type="text" id="username" name="username"/><br/><br/>
+    
+            <label for="password">Password</label><br/>
+            <input type="password" id="password" name="password"/><br/><br/>
+    
+            <input type="reset" value="reset"/>
+            <input type="submit" value="log in"/>
+        </form>
+    </body>
+</html>
