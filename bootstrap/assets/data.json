@@ -1,0 +1,28 @@
+{
+    "panelname": "weather",
+    "streams": [{
+            "dataname": "temp",
+            "datatype": "numeric",
+            "function": "sin",
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4",
+            "i": "0"
+        },
+
+        {
+            "dataname": "wind",
+            "datatype": "numeric",
+            "function": "random",
+            "min": "0",
+            "max": "5"
+        },
+
+        {
+            "dataname": "humidity",
+            "datatype": "text",
+            "value": "very humid"
+        }
+    ]
+}
