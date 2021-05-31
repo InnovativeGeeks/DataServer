@@ -1,9 +1,9 @@
 <?php
     function newconn(){
-        $servername = "127.0.0.1";
-        $username = "ryan";
-        $password = "Angusdraper2";
-        $db = "my_db";
+        $servername = "mysql-server";
+        $username = "it06";
+        $password = "innovativegeeks";
+        $db = "it06";
 
         $conn = new mysqli($servername, $username, $password, $db);
         return $conn;
